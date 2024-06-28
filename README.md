@@ -1,10 +1,10 @@
 # Job Analyzer
-Job Analyzer is a package of VDS definitions which can be created over the sys.projects.history.jobs system table to analyze the jobs that have been processed in Dremio Sonar.
+Job Analyzer is a package of VDS definitions which can be created over the sys.projects.history.jobs system table to analyze the jobs that have been processed in Dremio Cloud.
 
 ## Usage
 
 ### Manual
-The VDS definitions can be manually executed Dremio Sonar. Each SQL file in the vdsdefinition folder is numbered and contains a SQL that can be executed in the New Query window in Dremio Cloud, by executing the SQLs in numeric order all dependencies will be taken care of.
+The VDS definitions can be manually executed Dremio Cloud. Each SQL file in the vdsdefinition folder is numbered and contains a SQL that can be executed in the New Query window in Dremio Cloud, by executing the SQLs in numeric order all dependencies will be taken care of.
 
 NOTE: In order to load the VDS definitions manually it requires the manual creation of a space called JobAnalysis and the manual creation of three folders inside the space called Preparation, Business and Application.
 
